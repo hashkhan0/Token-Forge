@@ -42,12 +42,7 @@ npm start
 Deployment
 The dApp is deployed on Netlify for a seamless and fast user experience.
 
-Screenshots
-(Add relevant screenshots of the application here)
 
-Future Enhancements
-Support for additional token standards (e.g., ERC-721 for NFTs).
-Integration with other wallets like WalletConnect.
-Advanced token management features such as burning and minting.
-License
-This project is licensed under the MIT License.
+
+
+
