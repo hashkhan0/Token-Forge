@@ -9,14 +9,13 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cra-template": "1.2.0",
-    "eslint": "^9.20.1",
     "ethers": "^6.13.5",
     "firebase": "^11.3.1",
     "lucide-react": "^0.475.0",
     "postcss": "^8.5.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "shadcn-ui": "^0.9.4",
     "tailwind-merge": "^3.0.1",
@@ -26,7 +25,6 @@
     "start": "craco start",
     "build": "CI=false npm install --legacy-peer-deps && craco build",
     "test": "craco test"
-    
   },
   "eslintConfig": {
     "extends": [
@@ -47,7 +45,11 @@
     ]
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.26.8",
+    "@babel/eslint-parser": "^7.23.10",
+    "eslint": "^8.57.1",
     "eslint-config-react-app": "^7.0.1"
+  },
+  "resolutions": {
+    "eslint": "^8.57.1"
   }
 }
